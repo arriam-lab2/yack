@@ -4,13 +4,13 @@
 {
     "distutils": {
         "depends": [
-            "/home/nikolay/.virtualenvs/amquery/lib/python3.6/site-packages/numpy/core/include/numpy/arrayobject.h",
-            "/home/nikolay/.virtualenvs/amquery/lib/python3.6/site-packages/numpy/core/include/numpy/ufuncobject.h",
+            "/home/nikolay/.virtualenvs/yack/lib/python3.6/site-packages/numpy/core/include/numpy/arrayobject.h",
+            "/home/nikolay/.virtualenvs/yack/lib/python3.6/site-packages/numpy/core/include/numpy/ufuncobject.h",
             "yack/count/count.h"
         ],
         "include_dirs": [
             "yack/count",
-            "/home/nikolay/.virtualenvs/amquery/lib/python3.6/site-packages/numpy/core/include",
+            "/home/nikolay/.virtualenvs/yack/lib/python3.6/site-packages/numpy/core/include",
             "third-party"
         ],
         "language": "c++",
@@ -555,8 +555,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__count
-#define __PYX_HAVE_API__count
+#define __PYX_HAVE__count__count
+#define __PYX_HAVE_API__count__count
 #include <stdint.h>
 #include <vector>
 #include "ios"
@@ -836,7 +836,7 @@ typedef struct {
 } __Pyx_BufFmt_Context;
 
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":743
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":743
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -845,7 +845,7 @@ typedef struct {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":744
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":744
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -854,7 +854,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":745
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":745
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -863,7 +863,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":746
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":746
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -872,7 +872,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":750
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":750
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -881,7 +881,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":751
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":751
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -890,7 +890,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":752
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":752
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -899,7 +899,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":753
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":753
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -908,7 +908,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":757
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":757
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -917,7 +917,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":758
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":758
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -926,7 +926,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":767
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":767
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -935,7 +935,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":768
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":768
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
@@ -944,7 +944,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":769
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":769
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -953,7 +953,7 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":771
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":771
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -962,7 +962,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":772
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":772
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
@@ -971,7 +971,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":773
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":773
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -980,7 +980,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":775
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":775
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -989,7 +989,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":776
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":776
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -998,7 +998,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":778
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":778
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1007,7 +1007,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":779
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":779
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1016,7 +1016,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":780
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":780
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1025,14 +1025,14 @@ typedef npy_double __pyx_t_5numpy_double_t;
  */
 typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
 
-/* "count.pyx":6
+/* "count/count.pyx":6
  * cimport numpy as np
  * DTYPE = np.uint64
  * ctypedef np.uint64_t DTYPE_t             # <<<<<<<<<<<<<<
  * 
  * 
  */
-typedef __pyx_t_5numpy_uint64_t __pyx_t_5count_DTYPE_t;
+typedef __pyx_t_5numpy_uint64_t __pyx_t_5count_5count_DTYPE_t;
 /* Declarations.proto */
 #if CYTHON_CCOMPLEX
   #ifdef __cplusplus
@@ -1060,7 +1060,7 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
 
 /*--- Type declarations ---*/
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":782
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":782
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1069,7 +1069,7 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":783
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":783
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1078,7 +1078,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":784
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":784
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1087,7 +1087,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":786
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":786
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -1579,15 +1579,15 @@ static PyTypeObject *__pyx_ptype_5numpy_ndarray = 0;
 static PyTypeObject *__pyx_ptype_5numpy_ufunc = 0;
 static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *, char *, char *, int *); /*proto*/
 
-/* Module declarations from 'count' */
+/* Module declarations from 'count.count' */
 static PyObject *__pyx_convert_vector_to_py___pyx_t_5numpy_uint64_t(const std::vector<__pyx_t_5numpy_uint64_t>  &); /*proto*/
 static PyObject *__pyx_convert_pair_to_py_std_3a__3a_vector_3c___pyx_t_5numpy_uint64_t_3e_______std_3a__3a_vector_3c___pyx_t_5numpy_uint64_t_3e___(std::pair<std::vector<__pyx_t_5numpy_uint64_t> ,std::vector<__pyx_t_5numpy_uint64_t> >  const &); /*proto*/
-static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5count_DTYPE_t = { "DTYPE_t", NULL, sizeof(__pyx_t_5count_DTYPE_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5count_DTYPE_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5count_DTYPE_t), 0 };
-#define __Pyx_MODULE_NAME "count"
-extern int __pyx_module_is_main_count;
-int __pyx_module_is_main_count = 0;
+static __Pyx_TypeInfo __Pyx_TypeInfo_nn___pyx_t_5count_5count_DTYPE_t = { "DTYPE_t", NULL, sizeof(__pyx_t_5count_5count_DTYPE_t), { 0 }, 0, IS_UNSIGNED(__pyx_t_5count_5count_DTYPE_t) ? 'U' : 'I', IS_UNSIGNED(__pyx_t_5count_5count_DTYPE_t), 0 };
+#define __Pyx_MODULE_NAME "count.count"
+extern int __pyx_module_is_main_count__count;
+int __pyx_module_is_main_count__count = 0;
 
-/* Implementation of 'count' */
+/* Implementation of 'count.count' */
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_ValueError;
 static PyObject *__pyx_builtin_RuntimeError;
@@ -1597,7 +1597,6 @@ static const char __pyx_k_np[] = "np";
 static const char __pyx_k_main[] = "__main__";
 static const char __pyx_k_test[] = "__test__";
 static const char __pyx_k_DTYPE[] = "DTYPE";
-static const char __pyx_k_count[] = "count";
 static const char __pyx_k_numpy[] = "numpy";
 static const char __pyx_k_range[] = "range";
 static const char __pyx_k_ranks[] = "ranks";
@@ -1607,6 +1606,7 @@ static const char __pyx_k_uint64[] = "uint64";
 static const char __pyx_k_values[] = "values";
 static const char __pyx_k_ValueError[] = "ValueError";
 static const char __pyx_k_ImportError[] = "ImportError";
+static const char __pyx_k_count_count[] = "count.count";
 static const char __pyx_k_count_kmers[] = "count_kmers";
 static const char __pyx_k_RuntimeError[] = "RuntimeError";
 static const char __pyx_k_kmer_counter[] = "kmer_counter";
@@ -1628,7 +1628,7 @@ static PyObject *__pyx_kp_u_Non_native_byte_order_not_suppor;
 static PyObject *__pyx_n_s_RuntimeError;
 static PyObject *__pyx_n_s_ValueError;
 static PyObject *__pyx_n_s_cline_in_traceback;
-static PyObject *__pyx_n_s_count;
+static PyObject *__pyx_n_s_count_count;
 static PyObject *__pyx_n_s_count_kmers;
 static PyObject *__pyx_n_s_i;
 static PyObject *__pyx_n_s_import;
@@ -1648,7 +1648,7 @@ static PyObject *__pyx_n_s_uint64;
 static PyObject *__pyx_kp_u_unknown_dtype_code_in_numpy_pxd;
 static PyObject *__pyx_n_s_values;
 static PyObject *__pyx_kp_s_yack_count_count_pyx;
-static PyObject *__pyx_pf_5count_count_kmers(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_ranks); /* proto */
+static PyObject *__pyx_pf_5count_5count_count_kmers(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_ranks); /* proto */
 static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
 static PyObject *__pyx_tuple_;
@@ -1663,7 +1663,7 @@ static PyObject *__pyx_tuple__9;
 static PyObject *__pyx_tuple__10;
 static PyObject *__pyx_codeobj__11;
 
-/* "count.pyx":9
+/* "count/count.pyx":9
  * 
  * 
  * def count_kmers(np.ndarray[DTYPE_t, ndim=1] ranks):             # <<<<<<<<<<<<<<
@@ -1672,14 +1672,14 @@ static PyObject *__pyx_codeobj__11;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_5count_1count_kmers(PyObject *__pyx_self, PyObject *__pyx_v_ranks); /*proto*/
-static PyMethodDef __pyx_mdef_5count_1count_kmers = {"count_kmers", (PyCFunction)__pyx_pw_5count_1count_kmers, METH_O, 0};
-static PyObject *__pyx_pw_5count_1count_kmers(PyObject *__pyx_self, PyObject *__pyx_v_ranks) {
+static PyObject *__pyx_pw_5count_5count_1count_kmers(PyObject *__pyx_self, PyObject *__pyx_v_ranks); /*proto*/
+static PyMethodDef __pyx_mdef_5count_5count_1count_kmers = {"count_kmers", (PyCFunction)__pyx_pw_5count_5count_1count_kmers, METH_O, 0};
+static PyObject *__pyx_pw_5count_5count_1count_kmers(PyObject *__pyx_self, PyObject *__pyx_v_ranks) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("count_kmers (wrapper)", 0);
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ranks), __pyx_ptype_5numpy_ndarray, 1, "ranks", 0))) __PYX_ERR(0, 9, __pyx_L1_error)
-  __pyx_r = __pyx_pf_5count_count_kmers(__pyx_self, ((PyArrayObject *)__pyx_v_ranks));
+  __pyx_r = __pyx_pf_5count_5count_count_kmers(__pyx_self, ((PyArrayObject *)__pyx_v_ranks));
 
   /* function exit code */
   goto __pyx_L0;
@@ -1690,18 +1690,18 @@ static PyObject *__pyx_pw_5count_1count_kmers(PyObject *__pyx_self, PyObject *__
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_5count_count_kmers(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_ranks) {
+static PyObject *__pyx_pf_5count_5count_count_kmers(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_ranks) {
   KmerCounter __pyx_v_kmer_counter;
-  __pyx_t_5count_DTYPE_t __pyx_v_length;
-  __pyx_t_5count_DTYPE_t __pyx_v_i;
+  __pyx_t_5count_5count_DTYPE_t __pyx_v_length;
+  __pyx_t_5count_5count_DTYPE_t __pyx_v_i;
   std::pair<std::vector<__pyx_t_5numpy_uint64_t> ,std::vector<__pyx_t_5numpy_uint64_t> >  __pyx_v_values;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_ranks;
   __Pyx_Buffer __pyx_pybuffer_ranks;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
-  __pyx_t_5count_DTYPE_t __pyx_t_1;
-  __pyx_t_5count_DTYPE_t __pyx_t_2;
-  __pyx_t_5count_DTYPE_t __pyx_t_3;
+  __pyx_t_5count_5count_DTYPE_t __pyx_t_1;
+  __pyx_t_5count_5count_DTYPE_t __pyx_t_2;
+  __pyx_t_5count_5count_DTYPE_t __pyx_t_3;
   int __pyx_t_4;
   PyObject *__pyx_t_5 = NULL;
   __Pyx_RefNannySetupContext("count_kmers", 0);
@@ -1711,11 +1711,11 @@ static PyObject *__pyx_pf_5count_count_kmers(CYTHON_UNUSED PyObject *__pyx_self,
   __pyx_pybuffernd_ranks.rcbuffer = &__pyx_pybuffer_ranks;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_ranks.rcbuffer->pybuffer, (PyObject*)__pyx_v_ranks, &__Pyx_TypeInfo_nn___pyx_t_5count_DTYPE_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 9, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_ranks.rcbuffer->pybuffer, (PyObject*)__pyx_v_ranks, &__Pyx_TypeInfo_nn___pyx_t_5count_5count_DTYPE_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) __PYX_ERR(0, 9, __pyx_L1_error)
   }
   __pyx_pybuffernd_ranks.diminfo[0].strides = __pyx_pybuffernd_ranks.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_ranks.diminfo[0].shape = __pyx_pybuffernd_ranks.rcbuffer->pybuffer.shape[0];
 
-  /* "count.pyx":11
+  /* "count/count.pyx":11
  * def count_kmers(np.ndarray[DTYPE_t, ndim=1] ranks):
  *     cdef KmerCounter kmer_counter
  *     cdef DTYPE_t length = ranks.shape[0]             # <<<<<<<<<<<<<<
@@ -1724,7 +1724,7 @@ static PyObject *__pyx_pf_5count_count_kmers(CYTHON_UNUSED PyObject *__pyx_self,
  */
   __pyx_v_length = (__pyx_v_ranks->dimensions[0]);
 
-  /* "count.pyx":13
+  /* "count/count.pyx":13
  *     cdef DTYPE_t length = ranks.shape[0]
  * 
  *     for i in range(length):             # <<<<<<<<<<<<<<
@@ -1735,7 +1735,7 @@ static PyObject *__pyx_pf_5count_count_kmers(CYTHON_UNUSED PyObject *__pyx_self,
   for (__pyx_t_2 = 0; __pyx_t_2 < __pyx_t_1; __pyx_t_2+=1) {
     __pyx_v_i = __pyx_t_2;
 
-    /* "count.pyx":14
+    /* "count/count.pyx":14
  * 
  *     for i in range(length):
  *         kmer_counter.count(ranks[i])             # <<<<<<<<<<<<<<
@@ -1749,10 +1749,10 @@ static PyObject *__pyx_pf_5count_count_kmers(CYTHON_UNUSED PyObject *__pyx_self,
       __Pyx_RaiseBufferIndexError(__pyx_t_4);
       __PYX_ERR(0, 14, __pyx_L1_error)
     }
-    __pyx_v_kmer_counter.count((*__Pyx_BufPtrStrided1d(__pyx_t_5count_DTYPE_t *, __pyx_pybuffernd_ranks.rcbuffer->pybuffer.buf, __pyx_t_3, __pyx_pybuffernd_ranks.diminfo[0].strides)));
+    __pyx_v_kmer_counter.count((*__Pyx_BufPtrStrided1d(__pyx_t_5count_5count_DTYPE_t *, __pyx_pybuffernd_ranks.rcbuffer->pybuffer.buf, __pyx_t_3, __pyx_pybuffernd_ranks.diminfo[0].strides)));
   }
 
-  /* "count.pyx":16
+  /* "count/count.pyx":16
  *         kmer_counter.count(ranks[i])
  * 
  *     cdef pair[vector[np.uint64_t], vector[np.uint64_t]] values = kmer_counter.values()             # <<<<<<<<<<<<<<
@@ -1761,7 +1761,7 @@ static PyObject *__pyx_pf_5count_count_kmers(CYTHON_UNUSED PyObject *__pyx_self,
  */
   __pyx_v_values = __pyx_v_kmer_counter.values();
 
-  /* "count.pyx":17
+  /* "count/count.pyx":17
  * 
  *     cdef pair[vector[np.uint64_t], vector[np.uint64_t]] values = kmer_counter.values()
  *     return values             # <<<<<<<<<<<<<<
@@ -1774,7 +1774,7 @@ static PyObject *__pyx_pf_5count_count_kmers(CYTHON_UNUSED PyObject *__pyx_self,
   __pyx_t_5 = 0;
   goto __pyx_L0;
 
-  /* "count.pyx":9
+  /* "count/count.pyx":9
  * 
  * 
  * def count_kmers(np.ndarray[DTYPE_t, ndim=1] ranks):             # <<<<<<<<<<<<<<
@@ -1791,7 +1791,7 @@ static PyObject *__pyx_pf_5count_count_kmers(CYTHON_UNUSED PyObject *__pyx_self,
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_ranks.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("count.count_kmers", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("count.count.count_kmers", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -1802,7 +1802,7 @@ static PyObject *__pyx_pf_5count_count_kmers(CYTHON_UNUSED PyObject *__pyx_self,
   return __pyx_r;
 }
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":214
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":214
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -1849,7 +1849,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_GIVEREF(__pyx_v_info->obj);
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":220
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":220
  *             # of flags
  * 
  *             if info == NULL: return             # <<<<<<<<<<<<<<
@@ -1862,7 +1862,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L0;
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":223
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":223
  * 
  *             cdef int copy_shape, i, ndim
  *             cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -1871,7 +1871,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_endian_detector = 1;
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":224
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":224
  *             cdef int copy_shape, i, ndim
  *             cdef int endian_detector = 1
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -1880,7 +1880,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":226
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":226
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)
  * 
  *             ndim = PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -1889,7 +1889,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_ndim = PyArray_NDIM(__pyx_v_self);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":228
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":228
  *             ndim = PyArray_NDIM(self)
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -1899,7 +1899,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":229
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":229
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 copy_shape = 1             # <<<<<<<<<<<<<<
@@ -1908,7 +1908,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_copy_shape = 1;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":228
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":228
  *             ndim = PyArray_NDIM(self)
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -1918,7 +1918,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L4;
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":231
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":231
  *                 copy_shape = 1
  *             else:
  *                 copy_shape = 0             # <<<<<<<<<<<<<<
@@ -1930,7 +1930,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L4:;
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":233
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":233
  *                 copy_shape = 0
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -1944,7 +1944,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L6_bool_binop_done;
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":234
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":234
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -1955,7 +1955,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = __pyx_t_2;
   __pyx_L6_bool_binop_done:;
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":233
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":233
  *                 copy_shape = 0
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -1964,7 +1964,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   if (__pyx_t_1) {
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":235
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":235
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
@@ -1977,7 +1977,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(1, 235, __pyx_L1_error)
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":233
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":233
  *                 copy_shape = 0
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -1986,7 +1986,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":237
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":237
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -2000,7 +2000,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L9_bool_binop_done;
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":238
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":238
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -2011,7 +2011,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = __pyx_t_2;
   __pyx_L9_bool_binop_done:;
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":237
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":237
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -2020,7 +2020,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   if (__pyx_t_1) {
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":239
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":239
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
@@ -2033,7 +2033,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(1, 239, __pyx_L1_error)
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":237
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":237
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -2042,7 +2042,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":241
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":241
  *                 raise ValueError(u"ndarray is not Fortran contiguous")
  * 
  *             info.buf = PyArray_DATA(self)             # <<<<<<<<<<<<<<
@@ -2051,7 +2051,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->buf = PyArray_DATA(__pyx_v_self);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":242
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":242
  * 
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim             # <<<<<<<<<<<<<<
@@ -2060,7 +2060,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->ndim = __pyx_v_ndim;
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":243
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":243
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim
  *             if copy_shape:             # <<<<<<<<<<<<<<
@@ -2070,7 +2070,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = (__pyx_v_copy_shape != 0);
   if (__pyx_t_1) {
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":246
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":246
  *                 # Allocate new buffer for strides and shape info.
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)             # <<<<<<<<<<<<<<
@@ -2079,7 +2079,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->strides = ((Py_ssize_t *)PyObject_Malloc((((sizeof(Py_ssize_t)) * 2) * ((size_t)__pyx_v_ndim))));
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":247
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":247
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)
  *                 info.shape = info.strides + ndim             # <<<<<<<<<<<<<<
@@ -2088,7 +2088,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->shape = (__pyx_v_info->strides + __pyx_v_ndim);
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":248
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":248
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):             # <<<<<<<<<<<<<<
@@ -2099,7 +2099,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
       __pyx_v_i = __pyx_t_5;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":249
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":249
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]             # <<<<<<<<<<<<<<
@@ -2108,7 +2108,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
       (__pyx_v_info->strides[__pyx_v_i]) = (PyArray_STRIDES(__pyx_v_self)[__pyx_v_i]);
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":250
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":250
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]
  *                     info.shape[i] = PyArray_DIMS(self)[i]             # <<<<<<<<<<<<<<
@@ -2118,7 +2118,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       (__pyx_v_info->shape[__pyx_v_i]) = (PyArray_DIMS(__pyx_v_self)[__pyx_v_i]);
     }
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":243
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":243
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim
  *             if copy_shape:             # <<<<<<<<<<<<<<
@@ -2128,7 +2128,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L11;
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":252
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":252
  *                     info.shape[i] = PyArray_DIMS(self)[i]
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -2138,7 +2138,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   /*else*/ {
     __pyx_v_info->strides = ((Py_ssize_t *)PyArray_STRIDES(__pyx_v_self));
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":253
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":253
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -2149,7 +2149,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L11:;
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":254
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":254
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL             # <<<<<<<<<<<<<<
@@ -2158,7 +2158,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->suboffsets = NULL;
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":255
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":255
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)             # <<<<<<<<<<<<<<
@@ -2167,7 +2167,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->itemsize = PyArray_ITEMSIZE(__pyx_v_self);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":256
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":256
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)
  *             info.readonly = not PyArray_ISWRITEABLE(self)             # <<<<<<<<<<<<<<
@@ -2176,7 +2176,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->readonly = (!(PyArray_ISWRITEABLE(__pyx_v_self) != 0));
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":259
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":259
  * 
  *             cdef int t
  *             cdef char* f = NULL             # <<<<<<<<<<<<<<
@@ -2185,7 +2185,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_f = NULL;
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":260
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":260
  *             cdef int t
  *             cdef char* f = NULL
  *             cdef dtype descr = self.descr             # <<<<<<<<<<<<<<
@@ -2197,7 +2197,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_v_descr = ((PyArray_Descr *)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":263
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":263
  *             cdef int offset
  * 
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)             # <<<<<<<<<<<<<<
@@ -2206,7 +2206,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_hasfields = PyDataType_HASFIELDS(__pyx_v_descr);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":265
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":265
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)
  * 
  *             if not hasfields and not copy_shape:             # <<<<<<<<<<<<<<
@@ -2224,7 +2224,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_L15_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":267
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":267
  *             if not hasfields and not copy_shape:
  *                 # do not call releasebuffer
  *                 info.obj = None             # <<<<<<<<<<<<<<
@@ -2237,7 +2237,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_DECREF(__pyx_v_info->obj);
     __pyx_v_info->obj = Py_None;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":265
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":265
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)
  * 
  *             if not hasfields and not copy_shape:             # <<<<<<<<<<<<<<
@@ -2247,7 +2247,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L14;
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":270
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":270
  *             else:
  *                 # need to call releasebuffer
  *                 info.obj = self             # <<<<<<<<<<<<<<
@@ -2263,7 +2263,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L14:;
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":272
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":272
  *                 info.obj = self
  * 
  *             if not hasfields:             # <<<<<<<<<<<<<<
@@ -2273,7 +2273,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = ((!(__pyx_v_hasfields != 0)) != 0);
   if (__pyx_t_1) {
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":273
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":273
  * 
  *             if not hasfields:
  *                 t = descr.type_num             # <<<<<<<<<<<<<<
@@ -2283,7 +2283,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_4 = __pyx_v_descr->type_num;
     __pyx_v_t = __pyx_t_4;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":274
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *             if not hasfields:
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -2303,7 +2303,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     }
     __pyx_L20_next_or:;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":275
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":275
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -2320,7 +2320,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_1 = __pyx_t_2;
     __pyx_L19_bool_binop_done:;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":274
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *             if not hasfields:
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -2329,7 +2329,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     if (__pyx_t_1) {
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":276
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":276
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -2342,7 +2342,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(1, 276, __pyx_L1_error)
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":274
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *             if not hasfields:
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -2351,7 +2351,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     }
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":277
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":277
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"             # <<<<<<<<<<<<<<
@@ -2363,7 +2363,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"b");
       break;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":278
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":278
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"             # <<<<<<<<<<<<<<
@@ -2374,7 +2374,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"B");
       break;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":279
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":279
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"             # <<<<<<<<<<<<<<
@@ -2385,7 +2385,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"h");
       break;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":280
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":280
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"             # <<<<<<<<<<<<<<
@@ -2396,7 +2396,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"H");
       break;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":281
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":281
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"             # <<<<<<<<<<<<<<
@@ -2407,7 +2407,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"i");
       break;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":282
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":282
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"             # <<<<<<<<<<<<<<
@@ -2418,7 +2418,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"I");
       break;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":283
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":283
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"             # <<<<<<<<<<<<<<
@@ -2429,7 +2429,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"l");
       break;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":284
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":284
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"             # <<<<<<<<<<<<<<
@@ -2440,7 +2440,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"L");
       break;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":285
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":285
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"             # <<<<<<<<<<<<<<
@@ -2451,7 +2451,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"q");
       break;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":286
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":286
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"             # <<<<<<<<<<<<<<
@@ -2462,7 +2462,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"Q");
       break;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":287
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":287
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"             # <<<<<<<<<<<<<<
@@ -2473,7 +2473,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"f");
       break;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":288
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":288
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"             # <<<<<<<<<<<<<<
@@ -2484,7 +2484,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"d");
       break;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":289
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":289
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"             # <<<<<<<<<<<<<<
@@ -2495,7 +2495,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"g");
       break;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":290
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":290
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"             # <<<<<<<<<<<<<<
@@ -2506,7 +2506,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"Zf");
       break;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":291
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":291
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"             # <<<<<<<<<<<<<<
@@ -2517,7 +2517,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"Zd");
       break;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":292
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":292
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"             # <<<<<<<<<<<<<<
@@ -2528,7 +2528,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"Zg");
       break;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":293
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":293
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"
  *                 elif t == NPY_OBJECT:      f = "O"             # <<<<<<<<<<<<<<
@@ -2540,7 +2540,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       default:
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":295
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":295
  *                 elif t == NPY_OBJECT:      f = "O"
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -2566,7 +2566,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
     }
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":296
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":296
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f             # <<<<<<<<<<<<<<
@@ -2575,7 +2575,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->format = __pyx_v_f;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":297
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":297
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f
  *                 return             # <<<<<<<<<<<<<<
@@ -2585,7 +2585,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_r = 0;
     goto __pyx_L0;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":272
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":272
  *                 info.obj = self
  * 
  *             if not hasfields:             # <<<<<<<<<<<<<<
@@ -2594,7 +2594,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":299
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":299
  *                 return
  *             else:
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)             # <<<<<<<<<<<<<<
@@ -2604,7 +2604,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   /*else*/ {
     __pyx_v_info->format = ((char *)PyObject_Malloc(0xFF));
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":300
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":300
  *             else:
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment             # <<<<<<<<<<<<<<
@@ -2613,7 +2613,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     (__pyx_v_info->format[0]) = '^';
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":301
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":301
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0             # <<<<<<<<<<<<<<
@@ -2622,7 +2622,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_offset = 0;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":302
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":302
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0
  *                 f = _util_dtypestring(descr, info.format + 1,             # <<<<<<<<<<<<<<
@@ -2632,7 +2632,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_7 = __pyx_f_5numpy__util_dtypestring(__pyx_v_descr, (__pyx_v_info->format + 1), (__pyx_v_info->format + 0xFF), (&__pyx_v_offset)); if (unlikely(__pyx_t_7 == ((char *)NULL))) __PYX_ERR(1, 302, __pyx_L1_error)
     __pyx_v_f = __pyx_t_7;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":305
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":305
  *                                       info.format + _buffer_format_string_len,
  *                                       &offset)
  *                 f[0] = c'\0' # Terminate format string             # <<<<<<<<<<<<<<
@@ -2642,7 +2642,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     (__pyx_v_f[0]) = '\x00';
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":214
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":214
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -2674,7 +2674,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   return __pyx_r;
 }
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":307
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":307
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -2698,7 +2698,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("__releasebuffer__", 0);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":308
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":308
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
@@ -2708,7 +2708,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (PyArray_HASFIELDS(__pyx_v_self) != 0);
   if (__pyx_t_1) {
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":309
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":309
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)             # <<<<<<<<<<<<<<
@@ -2717,7 +2717,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
     PyObject_Free(__pyx_v_info->format);
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":308
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":308
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
@@ -2726,7 +2726,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":310
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":310
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -2736,7 +2736,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":311
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":311
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 PyObject_Free(info.strides)             # <<<<<<<<<<<<<<
@@ -2745,7 +2745,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
     PyObject_Free(__pyx_v_info->strides);
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":310
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":310
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -2754,7 +2754,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":307
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":307
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -2766,7 +2766,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":788
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":788
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -2780,7 +2780,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":789
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":789
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -2794,7 +2794,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":788
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":788
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -2813,7 +2813,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":791
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":791
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -2827,7 +2827,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":792
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":792
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -2841,7 +2841,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":791
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":791
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -2860,7 +2860,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":794
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":794
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -2874,7 +2874,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":795
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":795
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -2888,7 +2888,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":794
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":794
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -2907,7 +2907,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":797
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":797
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -2921,7 +2921,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":798
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":798
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -2935,7 +2935,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":797
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":797
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -2954,7 +2954,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":800
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":800
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -2968,7 +2968,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":801
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":801
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -2982,7 +2982,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":800
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":800
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -3001,7 +3001,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":803
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":803
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -3015,7 +3015,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":804
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":804
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -3025,7 +3025,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = (PyDataType_HASSUBARRAY(__pyx_v_d) != 0);
   if (__pyx_t_1) {
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":805
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":805
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -3037,7 +3037,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":804
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":804
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -3046,7 +3046,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":807
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":807
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -3060,7 +3060,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":803
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":803
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -3075,7 +3075,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":809
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":809
  *         return ()
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -3104,7 +3104,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   char *__pyx_t_9;
   __Pyx_RefNannySetupContext("_util_dtypestring", 0);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":814
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":814
  * 
  *     cdef dtype child
  *     cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -3113,7 +3113,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_endian_detector = 1;
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":815
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":815
  *     cdef dtype child
  *     cdef int endian_detector = 1
  *     cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -3122,7 +3122,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":818
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":818
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -3145,7 +3145,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_childname, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":819
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":819
  * 
  *     for childname in descr.names:
  *         fields = descr.fields[childname]             # <<<<<<<<<<<<<<
@@ -3162,7 +3162,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_fields, ((PyObject*)__pyx_t_3));
     __pyx_t_3 = 0;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":820
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":820
  *     for childname in descr.names:
  *         fields = descr.fields[childname]
  *         child, new_offset = fields             # <<<<<<<<<<<<<<
@@ -3201,7 +3201,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_new_offset, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":822
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":822
  *         child, new_offset = fields
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
@@ -3218,7 +3218,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((((__pyx_v_end - __pyx_v_f) - ((int)__pyx_t_5)) < 15) != 0);
     if (__pyx_t_6) {
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":823
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":823
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
@@ -3231,7 +3231,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(1, 823, __pyx_L1_error)
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":822
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":822
  *         child, new_offset = fields
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
@@ -3240,7 +3240,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     }
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":825
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":825
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -3260,7 +3260,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L8_next_or:;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":826
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":826
  * 
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -3277,7 +3277,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = __pyx_t_7;
     __pyx_L7_bool_binop_done:;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":825
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":825
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -3286,7 +3286,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     if (__pyx_t_6) {
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":827
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":827
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -3299,7 +3299,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(1, 827, __pyx_L1_error)
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":825
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":825
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -3308,7 +3308,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     }
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":837
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":837
  * 
  *         # Output padding bytes
  *         while offset[0] < new_offset:             # <<<<<<<<<<<<<<
@@ -3324,7 +3324,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (!__pyx_t_6) break;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":838
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":838
  *         # Output padding bytes
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte             # <<<<<<<<<<<<<<
@@ -3333,7 +3333,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       (__pyx_v_f[0]) = 0x78;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":839
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":839
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte
  *             f += 1             # <<<<<<<<<<<<<<
@@ -3342,7 +3342,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":840
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":840
  *             f[0] = 120 # "x"; pad byte
  *             f += 1
  *             offset[0] += 1             # <<<<<<<<<<<<<<
@@ -3353,7 +3353,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + 1);
     }
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":842
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":842
  *             offset[0] += 1
  * 
  *         offset[0] += child.itemsize             # <<<<<<<<<<<<<<
@@ -3363,7 +3363,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_8 = 0;
     (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + __pyx_v_child->elsize);
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":844
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":844
  *         offset[0] += child.itemsize
  * 
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
@@ -3373,7 +3373,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((!(PyDataType_HASFIELDS(__pyx_v_child) != 0)) != 0);
     if (__pyx_t_6) {
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":845
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":845
  * 
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num             # <<<<<<<<<<<<<<
@@ -3385,7 +3385,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_XDECREF_SET(__pyx_v_t, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":846
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":846
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
@@ -3395,7 +3395,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __pyx_t_6 = (((__pyx_v_end - __pyx_v_f) < 5) != 0);
       if (__pyx_t_6) {
 
-        /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":847
+        /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":847
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
@@ -3408,7 +3408,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __PYX_ERR(1, 847, __pyx_L1_error)
 
-        /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":846
+        /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":846
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
@@ -3417,7 +3417,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       }
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":850
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":850
  * 
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"             # <<<<<<<<<<<<<<
@@ -3435,7 +3435,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":851
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":851
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"             # <<<<<<<<<<<<<<
@@ -3453,7 +3453,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":852
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":852
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"             # <<<<<<<<<<<<<<
@@ -3471,7 +3471,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":853
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":853
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"             # <<<<<<<<<<<<<<
@@ -3489,7 +3489,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":854
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":854
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"             # <<<<<<<<<<<<<<
@@ -3507,7 +3507,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":855
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":855
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"             # <<<<<<<<<<<<<<
@@ -3525,7 +3525,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":856
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":856
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"             # <<<<<<<<<<<<<<
@@ -3543,7 +3543,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":857
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":857
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"             # <<<<<<<<<<<<<<
@@ -3561,7 +3561,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":858
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":858
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"             # <<<<<<<<<<<<<<
@@ -3579,7 +3579,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":859
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":859
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"             # <<<<<<<<<<<<<<
@@ -3597,7 +3597,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":860
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":860
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"             # <<<<<<<<<<<<<<
@@ -3615,7 +3615,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":861
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":861
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"             # <<<<<<<<<<<<<<
@@ -3633,7 +3633,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":862
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":862
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"             # <<<<<<<<<<<<<<
@@ -3651,7 +3651,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":863
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":863
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf             # <<<<<<<<<<<<<<
@@ -3671,7 +3671,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":864
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":864
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd             # <<<<<<<<<<<<<<
@@ -3691,7 +3691,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":865
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":865
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg             # <<<<<<<<<<<<<<
@@ -3711,7 +3711,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":866
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":866
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"             # <<<<<<<<<<<<<<
@@ -3729,7 +3729,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":868
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":868
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -3753,7 +3753,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       }
       __pyx_L15:;
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":869
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":869
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *             f += 1             # <<<<<<<<<<<<<<
@@ -3762,7 +3762,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":844
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":844
  *         offset[0] += child.itemsize
  * 
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
@@ -3772,7 +3772,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       goto __pyx_L13;
     }
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":873
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":873
  *             # Cython ignores struct boundary information ("T{...}"),
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)             # <<<<<<<<<<<<<<
@@ -3785,7 +3785,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L13:;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":818
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":818
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -3795,7 +3795,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":874
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":874
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)
  *     return f             # <<<<<<<<<<<<<<
@@ -3805,7 +3805,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   __pyx_r = __pyx_v_f;
   goto __pyx_L0;
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":809
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":809
  *         return ()
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -3830,7 +3830,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   return __pyx_r;
 }
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":990
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":990
  * 
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -3845,7 +3845,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   int __pyx_t_2;
   __Pyx_RefNannySetupContext("set_array_base", 0);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":992
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":992
  * cdef inline void set_array_base(ndarray arr, object base):
  *      cdef PyObject* baseptr
  *      if base is None:             # <<<<<<<<<<<<<<
@@ -3856,7 +3856,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":993
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":993
  *      cdef PyObject* baseptr
  *      if base is None:
  *          baseptr = NULL             # <<<<<<<<<<<<<<
@@ -3865,7 +3865,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
     __pyx_v_baseptr = NULL;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":992
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":992
  * cdef inline void set_array_base(ndarray arr, object base):
  *      cdef PyObject* baseptr
  *      if base is None:             # <<<<<<<<<<<<<<
@@ -3875,7 +3875,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
     goto __pyx_L3;
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":995
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":995
  *          baseptr = NULL
  *      else:
  *          Py_INCREF(base) # important to do this before decref below!             # <<<<<<<<<<<<<<
@@ -3885,7 +3885,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   /*else*/ {
     Py_INCREF(__pyx_v_base);
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":996
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":996
  *      else:
  *          Py_INCREF(base) # important to do this before decref below!
  *          baseptr = <PyObject*>base             # <<<<<<<<<<<<<<
@@ -3896,7 +3896,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   }
   __pyx_L3:;
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":997
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":997
  *          Py_INCREF(base) # important to do this before decref below!
  *          baseptr = <PyObject*>base
  *      Py_XDECREF(arr.base)             # <<<<<<<<<<<<<<
@@ -3905,7 +3905,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_XDECREF(__pyx_v_arr->base);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":998
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":998
  *          baseptr = <PyObject*>base
  *      Py_XDECREF(arr.base)
  *      arr.base = baseptr             # <<<<<<<<<<<<<<
@@ -3914,7 +3914,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   __pyx_v_arr->base = __pyx_v_baseptr;
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":990
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":990
  * 
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -3926,7 +3926,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1000
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1000
  *      arr.base = baseptr
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -3940,7 +3940,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1001
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1001
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:             # <<<<<<<<<<<<<<
@@ -3950,7 +3950,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = ((__pyx_v_arr->base == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1002
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1002
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -3962,7 +3962,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None;
     goto __pyx_L0;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1001
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1001
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:             # <<<<<<<<<<<<<<
@@ -3971,7 +3971,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1004
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1004
  *         return None
  *     else:
  *         return <object>arr.base             # <<<<<<<<<<<<<<
@@ -3985,7 +3985,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     goto __pyx_L0;
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1000
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1000
  *      arr.base = baseptr
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -4000,7 +4000,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1009
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1009
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -4021,7 +4021,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_array", 0);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1010
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1010
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4037,7 +4037,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1011
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1011
  * cdef inline int import_array() except -1:
  *     try:
  *         _import_array()             # <<<<<<<<<<<<<<
@@ -4046,7 +4046,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  */
       __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 1011, __pyx_L3_error)
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1010
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1010
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4060,7 +4060,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1012
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1012
  *     try:
  *         _import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -4075,7 +4075,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1013
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1013
  *         _import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -4091,7 +4091,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1010
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1010
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4106,7 +4106,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1009
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1009
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -4129,7 +4129,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1015
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1015
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -4150,7 +4150,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_umath", 0);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1016
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1016
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4166,7 +4166,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1017
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1017
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -4175,7 +4175,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 1017, __pyx_L3_error)
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1016
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1016
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4189,7 +4189,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1018
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1018
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -4204,7 +4204,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1019
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1019
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -4220,7 +4220,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1016
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1016
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4235,7 +4235,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1015
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1015
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -4258,7 +4258,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1021
+/* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1021
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -4279,7 +4279,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1022
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1022
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4295,7 +4295,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1023
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1023
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -4304,7 +4304,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 1023, __pyx_L3_error)
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1022
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1022
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4318,7 +4318,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1024
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1024
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -4332,7 +4332,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1025
+      /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1025
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -4346,7 +4346,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1022
+    /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1022
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4361,7 +4361,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1021
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1021
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -4550,7 +4550,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_RuntimeError, __pyx_k_RuntimeError, sizeof(__pyx_k_RuntimeError), 0, 0, 1, 1},
   {&__pyx_n_s_ValueError, __pyx_k_ValueError, sizeof(__pyx_k_ValueError), 0, 0, 1, 1},
   {&__pyx_n_s_cline_in_traceback, __pyx_k_cline_in_traceback, sizeof(__pyx_k_cline_in_traceback), 0, 0, 1, 1},
-  {&__pyx_n_s_count, __pyx_k_count, sizeof(__pyx_k_count), 0, 0, 1, 1},
+  {&__pyx_n_s_count_count, __pyx_k_count_count, sizeof(__pyx_k_count_count), 0, 0, 1, 1},
   {&__pyx_n_s_count_kmers, __pyx_k_count_kmers, sizeof(__pyx_k_count_kmers), 0, 0, 1, 1},
   {&__pyx_n_s_i, __pyx_k_i, sizeof(__pyx_k_i), 0, 0, 1, 1},
   {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
@@ -4586,7 +4586,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":235
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":235
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
@@ -4597,7 +4597,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":239
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":239
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
@@ -4608,7 +4608,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":276
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":276
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -4619,7 +4619,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":823
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":823
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
@@ -4630,7 +4630,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__4);
   __Pyx_GIVEREF(__pyx_tuple__4);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":827
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":827
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -4641,7 +4641,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":847
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":847
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
@@ -4652,7 +4652,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1013
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1013
  *         _import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -4663,7 +4663,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1019
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1019
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -4674,7 +4674,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__8);
   __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* "../../.virtualenvs/amquery/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1025
+  /* "../../.virtualenvs/yack/lib/python3.6/site-packages/Cython/Includes/numpy/__init__.pxd":1025
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -4683,7 +4683,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
 
-  /* "count.pyx":9
+  /* "count/count.pyx":9
  * 
  * 
  * def count_kmers(np.ndarray[DTYPE_t, ndim=1] ranks):             # <<<<<<<<<<<<<<
@@ -4827,14 +4827,14 @@ static int __pyx_pymod_exec_count(PyObject *__pyx_pyinit_module)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_count) {
+  if (__pyx_module_is_main_count__count) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "count")) {
-      if (unlikely(PyDict_SetItemString(modules, "count", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "count.count")) {
+      if (unlikely(PyDict_SetItemString(modules, "count.count", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -4866,7 +4866,7 @@ static int __pyx_pymod_exec_count(PyObject *__pyx_pyinit_module)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "count.pyx":3
+  /* "count/count.pyx":3
  * # distutils: language=c++
  * 
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -4878,7 +4878,7 @@ static int __pyx_pymod_exec_count(PyObject *__pyx_pyinit_module)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 3, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "count.pyx":5
+  /* "count/count.pyx":5
  * import numpy as np
  * cimport numpy as np
  * DTYPE = np.uint64             # <<<<<<<<<<<<<<
@@ -4893,19 +4893,19 @@ static int __pyx_pymod_exec_count(PyObject *__pyx_pyinit_module)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_DTYPE, __pyx_t_2) < 0) __PYX_ERR(0, 5, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "count.pyx":9
+  /* "count/count.pyx":9
  * 
  * 
  * def count_kmers(np.ndarray[DTYPE_t, ndim=1] ranks):             # <<<<<<<<<<<<<<
  *     cdef KmerCounter kmer_counter
  *     cdef DTYPE_t length = ranks.shape[0]
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_5count_1count_kmers, NULL, __pyx_n_s_count); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 9, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_5count_5count_1count_kmers, NULL, __pyx_n_s_count_count); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 9, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_count_kmers, __pyx_t_2) < 0) __PYX_ERR(0, 9, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "count.pyx":1
+  /* "count/count.pyx":1
  * # distutils: language=c++             # <<<<<<<<<<<<<<
  * 
  * import numpy as np
@@ -4931,11 +4931,11 @@ static int __pyx_pymod_exec_count(PyObject *__pyx_pyinit_module)
   __Pyx_XDECREF(__pyx_t_2);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init count", 0, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init count.count", 0, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init count");
+    PyErr_SetString(PyExc_ImportError, "init count.count");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
