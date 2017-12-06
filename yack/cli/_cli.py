@@ -21,9 +21,18 @@ def cli():
     pass
 
 
+def validate_kmer_size(ctx, param, value):
+    try:
+        kmer_size = int(value)
+        assert 1 <= kmer_size <= 32
+        return kmer_size
+    except (ValueError, AssertionError):
+        raise click.BadParameter('k-mer size must be an integer between 1 and 32')
+
+
 @cli.command()
 @click.argument("input_file", type=click.Path(exists=True), required=True)
-@click.option("--kmer_size", "-k", type=int, default=15)
+@click.option("--kmer_size", "-k", callback=validate_kmer_size, type=int, default=15)
 @click.option('--dump', 'output', flag_value=DUMP, default=True)
 @click.option('--hist', 'output', flag_value=HIST)
 @click.option('--output_filename', '-o', required=False, default='')
@@ -44,3 +53,4 @@ def count(input_file, kmer_size, output, output_filename):
         hist(sparse_array)
     else:
         raise ValueError("Unknown output format")
+
