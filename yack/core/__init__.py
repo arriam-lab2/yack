@@ -1,3 +1,5 @@
 from ._core import count_kmers, \
                    dump, \
-                   hist
+                   hist, \
+                   KMER_VALIDATE_MESSAGE, \
+                   validate_kmer_size

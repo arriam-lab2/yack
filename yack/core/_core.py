@@ -3,15 +3,18 @@ Main module
 """
 
 from ctypes import POINTER, c_uint8, c_uint64
-import os
 import itertools
-import functools
-import operator as op
 import joblib
-from Bio import SeqIO
+import time
 import numpy as np
 from yack.count import ranklib
 import yack.count.count as countlib
+
+
+KMER_VALIDATE_MESSAGE = 'k-mer size must be an integer between 1 and 32'
+UNKNOWN_SYMBOL = 'N'
+ALPHABET_LIST = ('A', 'C', 'G', 'T')
+ALPHABET = dict(zip([char for char in ALPHABET_LIST], itertools.count()))
 
 
 class SparseArray:
@@ -22,15 +25,35 @@ class SparseArray:
     def normalize(self):
         self.data /= np.sum(self.data)
 
+def validate_kmer_size(kmer_size):
+    value = int(kmer_size)
+    assert 1 <= value <= 32
+    return value
 
-def count_kmers(input_file, kmer_size):
-    sample = Sample(input_file)
-    kmer_refs = np.concatenate(list(_get_kmer_ranks(seq, kmer_size) for seq in sample.iter_seqs()))
-    
+def _transform(sequence):
+    sequence = "".join([c if c in ALPHABET else UNKNOWN_SYMBOL for c in sequence])
+    subseqs = sequence.split(UNKNOWN_SYMBOL)
+    return [np.array([ALPHABET[char] for char in subseq.upper()], dtype=np.uint8) 
+            for subseq in subseqs]
+
+def count_kmers(sequences, kmer_size):
+    begin = time.time()
+
+    kmer_size = validate_kmer_size(kmer_size)
+    transformed = []
+    for seq in sequences:
+        transformed.extend(_transform(seq))
+
+    kmer_refs = np.concatenate(list(_get_kmer_ranks(seq, kmer_size) for seq in transformed))
     counted = countlib.count_kmers(kmer_refs)
     cols = np.array(counted[0], dtype=np.uint64)
     data = np.array(counted[1], dtype=np.float)
-    return SparseArray(cols, data)
+
+    x = SparseArray(cols, data)
+    end = time.time()
+    print("Time:", end - begin)
+    return x
+
 
 def _get_kmer_ranks(sequence, kmer_size):
     if sequence.size < kmer_size:
@@ -52,56 +75,3 @@ def hist(sparse_array):
     print("\n".join(
         "{}: {:d}".format(k, int(v)) for k, v in values)
     )
-
-
-_alphabet = dict(zip([char for char in ('A', 'C', 'G', 'T')], itertools.count()))
-
-
-def _isvalid(sequence):
-    return functools.reduce(op.and_, [char in _alphabet for char in sequence])
-
-
-def _validate(sequence):
-    return sequence if _isvalid(sequence) else []
-
-
-def _transform(sequence):
-    return np.array([_alphabet[char] for char in sequence], dtype=np.uint8)
-
-
-def _parse_sample_name(sample_file):
-    with open(sample_file, 'r') as f:
-        line = ' '
-        while line[0] != '>':
-            line = f.readline()
-        
-        return line.split('_')[0].split('>')[1].strip()
-        
-
-
-class SampleFile:
-    def __init__(self, path: str):
-        self._path = path
-        self._format = os.path.splitext(os.path.basename(path))[1][1:]
-        if self._format == 'fna':
-            self._format = 'fasta'
-
-    @property
-    def path(self):
-        return self._path
-
-    @property
-    def file_format(self):
-        return self._format
-
-
-class Sample:
-    def __init__(self, input_file):
-        self._name = _parse_sample_name(input_file)
-        self._sample_file = SampleFile(input_file)
-        self._kmer_index = None
-
-    def iter_seqs(self):
-        seqs_records = SeqIO.parse(open(self._sample_file.path), self._sample_file.file_format)
-        for seq_rec in seqs_records:
-            yield _transform(_validate(seq_rec.seq))

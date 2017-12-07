@@ -4,7 +4,8 @@ Command line interface module
 
 import os
 import click
-from yack.core import count_kmers, dump, hist
+from Bio import SeqIO
+from yack.core import count_kmers, dump, hist, validate_kmer_size, KMER_VALIDATE_MESSAGE
 
 
 DUMP = 'dump'
@@ -21,26 +22,26 @@ def cli():
     pass
 
 
-def validate_kmer_size(ctx, param, value):
+def _validate_kmer_size(ctx, param, value):
     try:
-        kmer_size = int(value)
-        assert 1 <= kmer_size <= 32
-        return kmer_size
+        return validate_kmer_size(value)
     except (ValueError, AssertionError):
-        raise click.BadParameter('k-mer size must be an integer between 1 and 32')
+        raise click.BadParameter(KMER_VALIDATE_MESSAGE)
 
 
 @cli.command()
 @click.argument("input_file", type=click.Path(exists=True), required=True)
-@click.option("--kmer_size", "-k", callback=validate_kmer_size, type=int, default=15)
+@click.option("--kmer_size", "-k", callback=_validate_kmer_size, type=int, default=15)
 @click.option('--dump', 'output', flag_value=DUMP, default=True)
 @click.option('--hist', 'output', flag_value=HIST)
 @click.option('--output_filename', '-o', required=False, default='')
 def count(input_file, kmer_size, output, output_filename):
     """
-    Count k-mers of size k in the INPUT_FILE.
+    Count k-mers of size k in the INPUT_FILE (fasta or fastq)
     """
-    sparse_array = count_kmers(input_file, kmer_size)
+    input_format = os.path.splitext(input_file)[1][1:]
+    sequences = [str(record.seq) for record in SeqIO.parse(input_file, input_format)]
+    sparse_array = count_kmers(sequences, kmer_size)
 
     if not output_filename:
         basename = os.path.basename(input_file)
@@ -54,3 +55,42 @@ def count(input_file, kmer_size, output, output_filename):
     else:
         raise ValueError("Unknown output format")
 
+
+
+
+def _parse_sample_name(sample_file):
+    with open(sample_file, 'r') as f:
+        line = ' '
+        while line[0] != '>':
+            line = f.readline()
+        
+        return line.split('_')[0].split('>')[1].strip()
+        
+
+
+class SampleFile:
+    def __init__(self, path: str):
+        self._path = path
+        
+        if self._format == 'fna':
+            self._format = 'fasta'
+
+    @property
+    def path(self):
+        return self._path
+
+    @property
+    def file_format(self):
+        return self._format
+
+
+class Sample:
+    def __init__(self, input_file):
+        self._name = _parse_sample_name(input_file)
+        self._sample_file = SampleFile(input_file)
+        self._kmer_index = None
+
+    def iter_seqs(self):
+        seqs_records = SeqIO.parse(open(self._sample_file.path), self._sample_file.file_format)
+        for seq_rec in seqs_records:
+            yield _transform(_validate(seq_rec.seq))
