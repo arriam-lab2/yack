@@ -13,14 +13,7 @@ class KmerCounter
 public:
     void count(uint64_t kmer_ref)
     {
-        if (map.find(kmer_ref) == map.end())
-        {
-            map[kmer_ref] = 1;
-        } 
-        else
-        {
-            map[kmer_ref] += 1;
-        }
+        map[kmer_ref] += 1;
     }
 
     std::pair<std::vector<uint64_t>, std::vector<uint64_t>> values() const
