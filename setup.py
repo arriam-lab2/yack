@@ -5,27 +5,17 @@ Setuptools script
 import os
 import sys
 import numpy
-from distutils.core import Extension
-from setuptools import setup, find_packages
-
+from setuptools import setup, find_packages, Extension
+from Cython.Build import cythonize
 
 os.environ["CC"] = "g++"
 os.environ["CFLAGS"] = '-O3 -Wall -std=c++11'
 
 
-USE_CYTHON = False
-
-ext = '.pyx' if USE_CYTHON else '.c'
-extensions = [
-    Extension("yack.count.count", 
-              ["yack/count/count" + ext], 
-              include_dirs=[numpy.get_include(), "third-party"]),
+extensions = cythonize(["yack/count/count.pyx", ]) + [
+        Extension("yack.count.rank", ["yack/count/rank.cpp"], language='c++') 
 ]
-
-if USE_CYTHON:
-    from Cython.Build import cythonize
-    extensions = cythonize(extensions)
-
+print(extensions)
 setup(
     name='yack',
     version='0.1',
@@ -43,7 +33,6 @@ setup(
         yack=yack.cli:cli
     ''',
 
-    ext_modules = extensions + [
-        Extension("yack.count.rank", ["yack/count/rank.cpp"], language='c++')
-    ]
+    ext_modules = extensions,
+    include_dirs=[numpy.get_include(), "third-party"]
 )
