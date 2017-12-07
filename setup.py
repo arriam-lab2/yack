@@ -15,7 +15,6 @@ os.environ["CFLAGS"] = '-O3 -Wall -std=c++11'
 extensions = cythonize(["yack/count/count.pyx", ]) + [
         Extension("yack.count.rank", ["yack/count/rank.cpp"], language='c++') 
 ]
-print(extensions)
 setup(
     name='yack',
     version='0.1',

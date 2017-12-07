@@ -5,7 +5,6 @@ Main module
 from ctypes import POINTER, c_uint8, c_uint64
 import itertools
 import joblib
-import time
 import numpy as np
 from yack.count import ranklib
 import yack.count.count as countlib
@@ -25,6 +24,10 @@ class SparseArray:
     def normalize(self):
         self.data /= np.sum(self.data)
 
+    def __len__(self):
+        return len(self.cols)
+
+
 def validate_kmer_size(kmer_size):
     value = int(kmer_size)
     assert 1 <= value <= 32
@@ -37,8 +40,6 @@ def _transform(sequence):
             for subseq in subseqs]
 
 def count_kmers(sequences, kmer_size):
-    begin = time.time()
-
     kmer_size = validate_kmer_size(kmer_size)
     transformed = []
     for seq in sequences:
@@ -49,10 +50,7 @@ def count_kmers(sequences, kmer_size):
     cols = np.array(counted[0], dtype=np.uint64)
     data = np.array(counted[1], dtype=np.float)
 
-    x = SparseArray(cols, data)
-    end = time.time()
-    print("Time:", end - begin)
-    return x
+    return SparseArray(cols, data)
 
 
 def _get_kmer_ranks(sequence, kmer_size):
