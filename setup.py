@@ -12,7 +12,7 @@ os.environ["CC"] = "g++"
 os.environ["CFLAGS"] = '-O3 -Wall -std=c++17'
 
 
-extensions = cythonize(["yack/count/count.pyx", ])
+extensions = cythonize(["yack/ext/count.pyx", ])
 
 setup(
     name='yack',

@@ -14,7 +14,8 @@ def main(input_file):
     input_format = os.path.splitext(input_file)[1][1:]
     sequences = [str(record.seq) for record in SeqIO.parse(input_file, input_format)]
     k = 15
-    print(yack.count_kmers(sequences, k))
+    counted = yack.count_kmers(sequences, k)
+    yack.hist(counted)
 
     
 if __name__ == "__main__":
