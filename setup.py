@@ -9,12 +9,11 @@ from setuptools import setup, find_packages, Extension
 from Cython.Build import cythonize
 
 os.environ["CC"] = "g++"
-os.environ["CFLAGS"] = '-O3 -Wall -std=c++11'
+os.environ["CFLAGS"] = '-O3 -Wall -std=c++17'
 
 
-extensions = cythonize(["yack/count/count.pyx", ]) + [
-        Extension("yack.count.rank", ["yack/count/rank.cpp"], language='c++') 
-]
+extensions = cythonize(["yack/count/count.pyx", ])
+
 setup(
     name='yack',
     version='0.1',

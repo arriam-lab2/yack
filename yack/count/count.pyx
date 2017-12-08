@@ -1,18 +1,12 @@
 # distutils: language=c++
 
-import numpy as np
-cimport numpy as np
-DTYPE = np.uint64
-ctypedef np.uint64_t DTYPE_t
+from libcpp.string cimport string
+from libcpp.vector cimport vector
+from libcpp.utility cimport pair
+from libc.stdint cimport uint64_t
 
-
-def count_kmers(np.ndarray[DTYPE_t, ndim=1] ranks):
-    cdef KmerCounter kmer_counter
-    cdef DTYPE_t length = ranks.shape[0]
-
-    for i in range(length):
-        kmer_counter.count(ranks[i])
-
-    cdef pair[vector[np.uint64_t], vector[np.uint64_t]] values = kmer_counter.values()
-    return values
+def count_kmers(seqs, size_t kmer_size, size_t num_bins):
+    cdef vector[string] vector_seqs = seqs
+    cdef cpp_result = count(vector_seqs, kmer_size, num_bins)
+    return [p for p in cpp_result]
     

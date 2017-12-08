@@ -6,7 +6,6 @@ from ctypes import POINTER, c_uint8, c_uint64
 import itertools
 import joblib
 import numpy as np
-from yack.count import ranklib
 import yack.count.count as countlib
 
 
@@ -40,16 +39,10 @@ def _transform(sequence):
             for subseq in subseqs]
 
 def count_kmers(sequences, kmer_size):
-    kmer_size = validate_kmer_size(kmer_size)
-    transformed = []
-    for seq in sequences:
-        transformed.extend(_transform(seq))
-
-    kmer_refs = np.concatenate(list(_get_kmer_ranks(seq, kmer_size) for seq in transformed))
-    counted = countlib.count_kmers(kmer_refs)
+    counted = countlib.count_kmers([s.encode('ascii') for s in sequences], kmer_size, 1000)
+    counted = list(zip(*counted))
     cols = np.array(counted[0], dtype=np.uint64)
     data = np.array(counted[1], dtype=np.float)
-
     return SparseArray(cols, data)
 
 
