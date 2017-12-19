@@ -45,7 +45,7 @@ os.environ["CFLAGS"] = '-O3 -Wall -std=c++17'
 
 setup(
     name='yack',
-    version='0.1.1a',
+    version='0.1.2',
     description = 'Yet another k-mer counter',
     license='MIT',
     author = 'Nikolay Romashchenko',
