@@ -49,7 +49,7 @@ def count(input_file, kmer_size, output, output_filename):
         
     if output == DUMP:
         dump(sparse_array, output_filename)
-        print("Output:", output_filename)
+        print("Output file:", output_filename)
     elif output == HIST:
         hist(sparse_array)
     else:

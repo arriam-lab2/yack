@@ -17,6 +17,13 @@ extensions = cythonize(["yack/ext/count.pyx", ])
 setup(
     name='yack',
     version='0.1',
+    description = 'Yet another k-mer counter',
+    author = 'Nikolay Romashchenko',
+    author_email = 'nikolay.romashchenko@gmail.com',
+    url = 'https://github.com/arriam-lab2/yack',
+    download_url = 'https://github.com/arriam-lab2/yack/archive/v0.1.tar.gz',
+    keywords = ['k-mer', 'counting'],
+
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
