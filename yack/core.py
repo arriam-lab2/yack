@@ -4,7 +4,7 @@ Main module
 
 import joblib
 import numpy as np
-import yack.ext.count as countlib
+import yack.count as countlib
 
 
 KMER_VALIDATE_MESSAGE = 'k-mer size must be an integer between 1 and 32'
