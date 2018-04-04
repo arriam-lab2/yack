@@ -34,8 +34,9 @@ def _validate_kmer_size(ctx, param, value):
 @click.option('--hist', 'output', flag_value=HIST)
 @click.option('--multiple', is_flag=True)
 @click.option('--delimiter', type=str, default="_")
+@click.option('--num-jobs', type=int, default=1)
 def count(input_file: str, output_dir: str, kmer_size: int,
-          output: str, multiple: bool, delimiter: str):
+          output: str, multiple: bool, delimiter: str, num_jobs: int):
     """
     Count k-mers of size k in the INPUT_FILE (fasta or fastq)
     """
@@ -43,8 +44,8 @@ def count(input_file: str, output_dir: str, kmer_size: int,
     import os
     from yack import core
 
-    counted_samples = core.count_multiple_samples(input_file, output_dir, kmer_size, delimiter=delimiter) \
-        if multiple else {input_file: core.count_sample(input_file, kmer_size)}
+    counted_samples = core.count_multiple_samples(kmer_size, input_file, output_dir, delimiter=delimiter, num_jobs=num_jobs) \
+        if multiple else {input_file: core.count_sample(kmer_size, input_file)}
 
     for sample_file, sparse_array in counted_samples.items():
         print("Input file: ", sample_file)
