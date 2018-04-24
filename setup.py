@@ -32,12 +32,12 @@ ext_modules = []
 
 if USE_CYTHON:
     ext_modules += [
-        Extension("yack.ext.count", [ "yack/ext/count.pyx" ], language="c++"),
+        Extension("yack.count", [ "yack/count.pyx" ], language="c++"),
     ]
     cmdclass.update({ 'build_ext': build_ext })
 else:
     ext_modules += [
-        Extension("yack.ext.count", [ "yack/ext/count.cpp" ]),
+        Extension("yack.count", [ "yack/count.cpp" ]),
     ]
 
 os.environ["CC"] = "g++"
@@ -48,7 +48,7 @@ setup(
     version='0.1.2',
     description = 'Yet another k-mer counter',
     license='MIT',
-    author = 'Nikolay Romashchenko',
+    author = 'Nikolai Romashchenko',
     author_email = 'nikolay.romashchenko@gmail.com',
     url = 'https://github.com/arriam-lab2/yack',
     keywords = ['k-mer', 'counting'],
@@ -69,5 +69,5 @@ setup(
         yack=yack.cli:cli
     ''',
 
-    include_dirs = [numpy.get_include(), "third-party", "yack/ext"]
+    include_dirs = [numpy.get_include(), "third-party", "yack"]
 )
