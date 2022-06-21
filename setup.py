@@ -62,7 +62,7 @@ setup(
         'click==6.7',
         'cython==0.27.3',
         'joblib==0.11',
-        'numpy==1.13.3',
+        'numpy==1.22.0',
     ],
     entry_points = '''
         [console_scripts]
