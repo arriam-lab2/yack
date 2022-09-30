@@ -61,7 +61,7 @@ setup(
         'biopython==1.70',
         'click==6.7',
         'cython==0.27.3',
-        'joblib==0.11',
+        'joblib==1.2.0',
         'numpy==1.13.3',
     ],
     entry_points = '''
